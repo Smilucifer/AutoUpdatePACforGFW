@@ -5,3 +5,5 @@
 由于本人实在太懒了，不想每次都去弄很麻烦，所以现在弄个脚本以后自动去生成最新的pac.txt给SSR使用。
 
 其中GFWlist.txt是来自https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt 的加密文件，pac.txt是经由脚本生成的为SSR使用的文件，直接放于SSR的文件夹下即可使用。
+
+之后会加入自动爬取最新的文件，然后打包成exe放在SSR文件夹里运行即可的究极懒人功能，啊今天真的懒得动了，过几天再弄了。
