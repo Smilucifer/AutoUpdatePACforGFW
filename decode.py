@@ -7,12 +7,7 @@ with open("gfwlist.txt","r") as f:
 
 text = str(base64.b64decode(a),"utf-8")
 
-with open("PACurl.txt","w") as file:
-    file.write(text)
-
-
-with open("PACurl.txt","r") as f1:
-    txt = f1.read().splitlines()
+txt = text.split('\n')
 
 t = txt[18:-2]
 url = []
