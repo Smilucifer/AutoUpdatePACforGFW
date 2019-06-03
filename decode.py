@@ -10,8 +10,6 @@ text = str(base64.b64decode(a),"utf-8")
 with open("PACurl.txt","w") as file:
     file.write(text)
 
-f.close()
-file.close()
 
 with open("PACurl.txt","r") as f1:
     txt = f1.read().splitlines()
@@ -47,6 +45,3 @@ with open("pac.txt","w") as f2:
     for line in t2:
         f2.writelines(line+"\n")
 
-f1.close()
-ff.close()
-f2.close()
